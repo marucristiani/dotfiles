@@ -108,3 +108,7 @@ eval "$(npm completion 2>/dev/null)"
 # Homebrew git & misc completion
 [[ -d /usr/local/share/zsh/site-functions ]] && \
   source /usr/local/share/zsh/site-functions
+
+# ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+# ZSH_HIGHLIGHT_STYLES[alias]='fg=magenta,bold'
+# ZSH_HIGHLIGHT_STYLES[command]='fg=blue'

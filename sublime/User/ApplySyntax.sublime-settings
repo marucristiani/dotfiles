@@ -10,5 +10,11 @@
 
     // Put your custom syntax rules here:
     "syntaxes": [
+      {
+          "name": "GitCommitMsg",
+          "rules": [
+              {"file_name": "^COMMIT_EDITMSG$"}
+          ]
+      },
     ]
 }
