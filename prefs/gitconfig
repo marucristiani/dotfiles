@@ -36,6 +36,7 @@
     untracked = cyan
 [alias] # most of these are taken from: https://gist.github.com/oli/1637874
     aa = add --all --intent-to-add
+    ac = "!git add -A && git commit -m"
     ap = add --patch
     amend = commit --amend
     c = commit
