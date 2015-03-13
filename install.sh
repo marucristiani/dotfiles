@@ -21,7 +21,7 @@ brew update && brew upgrade
 # # #
 # Install GNU utilities and link them with their default names
 # # #
-brew install coreutils
+#brew install coreutils
 brew tap homebrew/dupes
 brew install binutils diffutils gawk wget
 brew install findutils --default-names
@@ -134,8 +134,8 @@ brew install node
 npm install -g npm-check-updates express coffee-script nodemon coffeelint jshint gulp mocha docco ngen
 
 # Git: update these vars to match your username and email
-username='uname'
-email='uname@email.com'
+username='marucristiani'
+email='maru.cristiani@gmail.com'
 
 # backup existing .gitconfig if any
 # echo 'Copying git preferences'
