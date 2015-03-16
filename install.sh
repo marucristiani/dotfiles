@@ -32,6 +32,7 @@ brew install gnu-sed --default-names
 brew install gnutls --default-names
 brew install grep --default-names
 brew install ansifilter
+brew install memcached
 
 brew install python --with-brewed-openssl
 brew install openssh --with-brewed-openssl
